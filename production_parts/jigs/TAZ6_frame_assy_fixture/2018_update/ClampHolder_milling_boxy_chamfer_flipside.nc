@@ -1,0 +1,41 @@
+(Exported by FreeCAD)
+(Post Processor: linuxcnc_post)
+(Output Time:2018-04-20 10:43:44.425732)
+(begin preamble)
+G17 G54 G40 G49 G80 G90
+G21
+(begin operation: T8: 635 end mill)
+(machine: not set, mm/min)
+(T8: 635 end mill)
+M6 T8 G43 H8
+M8
+M3 S3000
+(finish operation: T8: 635 end mill)
+(begin operation: Helix)
+(machine: not set, mm/min)
+(Helix)
+(helix cut operation)
+G0 Z5.000
+G0 X-19.175 Y-7.630
+G0 Z3.000
+G1 Z0.000 F90.000
+G2 X-20.825 Y-7.630 Z-0.425 I-0.825 J0.000 F90.000
+G2 X-19.175 Y-7.630 Z-0.850 I0.825 J0.000 F90.000
+G2 X-20.825 Y-7.630 Z-1.275 I-0.825 J0.000 F90.000
+G2 X-19.175 Y-7.630 Z-1.700 I0.825 J0.000 F90.000
+G2 X-20.825 Y-7.630 Z-2.125 I-0.825 J0.000 F90.000
+G2 X-19.175 Y-7.630 Z-2.550 I0.825 J0.000 F90.000
+G2 X-20.825 Y-7.630 Z-2.975 I-0.825 J0.000 F90.000
+G2 X-19.175 Y-7.630 Z-3.400 I0.825 J0.000 F90.000
+G2 X-20.825 Y-7.630 Z-3.825 I-0.825 J0.000 F90.000
+G2 X-19.175 Y-7.630 Z-4.250 I0.825 J0.000 F90.000
+G2 X-20.825 Y-7.630 Z-4.250 I-0.825 J0.000 F90.000
+G2 X-19.175 Y-7.630 Z-4.250 I0.825 J0.000 F90.000
+G0 Z3.000
+G0 Z5.000
+(finish operation: Helix)
+(begin postamble)
+M9
+M05
+G17 G54 G90 G80 G40
+M2
